@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body class="bodybackground">
+    <table class="headertable">
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="about.html">About</a></td>
+        <td><a href="quiz.html">Quiz</a></td>
+      </tr>
+    </table>
+    <h1 class="aboutTitle">Javascript quiz</h1>
+    <hr />
+    <h2>Question 1:</h2>
+    <p>What datatype does Javascript use to encompass integers and floats?</p>
+    <p>Answer: <input type="text" id="q1ans" /></p>
+    <p id="q1response"></p>
+    <hr />
+    <h2>Question 2:</h2>
+    <p>What is an example of a boolean value?</p>
+    <p>Answer: <input type="text" id="q2ans" /></p>
+    <p id="q2response"></p>
+    <hr />
+    <h2>Question 3:</h2>
+    <p>What symbols are used to form a complete string?</p>
+    <p>Answer: <input type="text" id="q3ans" /></p>
+    <p id="q3response"></p>
+    <hr />
+    <h2>Question 4:</h2>
+    <p>What value do variables have if it has not yet been given a value?</p>
+    <p>Answer: <input type="text" id="q4ans" /></p>
+    <p id="q4response"></p>
+    <hr />
+    <h2>Question 5:</h2>
+    <p>What value can be assigned to a variable to empty it?</p>
+    <p>Answer: <input type="text" id="q5ans" /></p>
+    <p id="q5response"></p>
+    <button onclick="calculateScore()">Submit</button>
+    <h2 id="grade"></h2>
+    <h2 id="encouragement"></h2>
+  </body>
+</html>
